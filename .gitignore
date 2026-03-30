@@ -1,0 +1,38 @@
+# --- System Files ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Dependencies ---
+# Covers node_modules in root, client, and future server folders
+node_modules/
+jspm_packages/
+
+# --- Testing & Coverage ---
+# Essential for TDD projects using Jest
+coverage/
+.jest/
+*.lcov
+
+# --- Environment & Secrets ---
+# Never commit API keys or local configs
+.env
+.env.local
+.env.*.local
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+
+# --- Build & Output ---
+# For future production builds
+dist/
+build/
+.cache/
+
+# --- Persistence (Local Development) ---
+# If you use any local DB files for testing
+*.db
+*.sqlite
