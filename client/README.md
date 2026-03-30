@@ -12,6 +12,9 @@ This is the core of the StockTrader Lite interface. It manages trade records (St
 
 - [✅] **Infrastructure & Setup**
   - [✅] Jest configuration for ES6 Modules.
+- [✅] **Domain Models (TDD Focused)**
+  - [✅] Create unit tests for the Trade model according to application requirements.
+  - [✅] Create Trade model satisfying the developed test cases.
 
 ## 🏗️ Internal Structure
 

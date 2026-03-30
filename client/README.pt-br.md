@@ -12,6 +12,9 @@ Este é o núcleo da interface do StockTrader Lite. Ele gerencia o registro de n
 
 - [✅] **Infraestrutura & Setup**
   - [✅] Configuração do Jest para ES6 Modules.
+- [✅] **Modelos de Domínio (Foco em TDD)**
+  - [✅] Criar caso de teste para o modelo Trade conforme requisitos da aplicação.
+  - [✅] Criar modelo Trade atendendo ao caso de teste desenvolvido.
 
 ## 🏗️ Estrutura Interna
 
