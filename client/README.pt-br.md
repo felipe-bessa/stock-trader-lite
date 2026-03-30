@@ -8,6 +8,11 @@
 
 Este é o núcleo da interface do StockTrader Lite. Ele gerencia o registro de negociações (Data, Quantidade e Valor) diretamente no navegador, garantindo a integridade dos dados através de regras de negócio estritas e testes automatizados.
 
+## 🛠️ Roadmap de Desenvolvimento
+
+- [✅] **Infraestrutura & Setup**
+  - [✅] Configuração do Jest para ES6 Modules.
+
 ## 🏗️ Estrutura Interna
 
 O projeto segue uma separação clara de responsabilidades dentro do diretório `/app`:

@@ -8,6 +8,11 @@
 
 This is the core of the StockTrader Lite interface. It manages trade records (Stock, Quantity, and Value) directly in the browser, ensuring data integrity through strict business rules and automated testing.
 
+## 🛠️ Development Roadmap
+
+- [✅] **Infrastructure & Setup**
+  - [✅] Jest configuration for ES6 Modules.
+
 ## 🏗️ Internal Structure
 
 The project follows a clean separation of concerns within the `/app` directory:
