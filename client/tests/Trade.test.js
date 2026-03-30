@@ -47,8 +47,13 @@ describe("Trade Model", () => {
     const trade = new Trade(date, amount, price);
     expect(trade.volume).toBe(1500.0);
 
-    trade.volume = 9999;
-    trade._volume = 9999;
+    expect(() => {
+      trade.volume = 9999;
+    }).toThrow();
+    expect(() => {
+      trade._volume = 9999;
+    }).toThrow();
+
     expect(trade.volume).toBe(1500.0);
   });
 
@@ -73,8 +78,12 @@ describe("Trade Model", () => {
   it("should not be able to change a Trade amount (Immutability)", () => {
     const trade = new Trade(date, amount, price);
 
-    trade.amount = 2;
-    trade._amount = 2;
+    expect(() => {
+      trade.amount = 2;
+    }).toThrow();
+    expect(() => {
+      trade._amount = 2;
+    }).toThrow();
 
     expect(trade.amount).toBe(amount);
   });
@@ -82,8 +91,12 @@ describe("Trade Model", () => {
   it("should not be able to change a Trade price (Immutability)", () => {
     const trade = new Trade(date, amount, price);
 
-    trade.price = 3.14;
-    trade._price = 3.14;
+    expect(() => {
+      trade.price = 3.14;
+    }).toThrow();
+    expect(() => {
+      trade._price = 3.14;
+    }).toThrow();
 
     expect(trade.price).toBe(price);
   });
